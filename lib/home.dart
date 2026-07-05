@@ -22,7 +22,7 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      git statusappBar: _appBar(),
+      appBar: _appBar(),
       backgroundColor: const Color.fromRGBO(76, 175, 80, 1),
       body: Stack(children: [
         Container(
